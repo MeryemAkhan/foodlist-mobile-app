@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="2dp"
+    app:cardElevation="3dp"
+    app:cardUseCompatPadding="true"
+    android:background="@color/yellow"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linear_layout"
+        android:orientation="vertical"
+        android:background="#D0FFEB3B">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/code_name"
+            android:text="Code Name"
+            android:textSize="22sp"
+            android:padding="16dp"
+            android:textColor="@color/black">
+        </TextView>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/expandable"
+            >
+
+            <TextView
+                android:id="@+id/porsiyon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="Porsiyon"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/kalori"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="Kalori"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/black"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:id="@+id/aciklama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="Aciklama"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:layout_below="@+id/porsiyon"/>
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

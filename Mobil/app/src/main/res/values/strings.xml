@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Mobil Uygulama</string>
+    <string name="yazi">  Kullandığınız mobil uygulama Meryem Akhan tarafından 17.12.2020-31.12.2020 tarihleri arasında
+        tasarım kodları ve java kodlamalarının yapıldığı bir projedir. Uygulamamızın amacı kullanıcının
+        (boy, kilo ve cinsiyet bilgileri alındıktan sonra) ideal kilosunu ve günlük alması gereken kalori miktarını hesaplayarak ideal kilosunu ve durumu hakkında bilgi vermektir.
+        Ayrıca menü içerisinde bulunan yiycek ve içcecek seçeneğimizde bulunan çeşitli yiyecek ve içeceklerin bir porsiyonluk veya günlük toplam kalori miktarı ve içeriği hakkında
+        bilgi vererek kullanıcının günlük yemek menüsü oluşturmasını sağlamaktır.
+        Sağlıklı huzurlu günler dileriz..
+    </string>
+</resources>

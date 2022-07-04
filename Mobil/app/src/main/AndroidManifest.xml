@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mobiluygulama">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MobilUygulama">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.LOGİN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RegisterActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.SİGİN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".MenuCardViewActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MENU" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".IdealBoyKiloActivity"
+            android:windowSoftInputMode="stateAlwaysVisible"
+            android:screenOrientation="portrait"> //ekran klavyesi gornur olması ve düşey modda acılması için.
+            <intent-filter>
+                <action android:name="android.intent.action.INDEX" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".FoodDrinkActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MENU" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".HakkimizdaActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MENU" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".SuMiktariActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MENU" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".YardimActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MENU" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Sicak_BaslangicActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.SICAK_BASLANGIC" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Ara_SoguklarActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.ARA_SOGUK" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".CorbalarActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.CORBA" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Ana_YemeklerActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.ANA_YEMEKLER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".TatlilarActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.TATLILAR" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".AtistirmaliklarActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.ATISTIRMALIKLAR" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".IceceklerActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.ICECEKLER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Vegan_MenuActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VEGAN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>
